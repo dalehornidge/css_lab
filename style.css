@@ -1,8 +1,33 @@
 
 h1 {
     font-family: 'Oleo Script', cursive;
+    text-align: center;
+    font-size: 3rem;
+}
+
+.main-content {
+    display: flex;
+
+}
+
+#insta-phone {
+    width: 50%;
+    padding: 20px;
 }
 
 #logo {
-    size: 10px;
+    width: 5%;
+}
+
+#apple {
+    width: 25%;
+}
+
+#google {
+    width: 25%;
+}
+
+.right-section {
+    border: solid 1px grey;
+    margin: 10px 0px; 
 }

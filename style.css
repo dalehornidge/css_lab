@@ -5,14 +5,36 @@ h1 {
     font-size: 3rem;
 }
 
+li {
+    display: inline;
+    max-width: 70%;
+}
+
+html, body {
+    height: 100%;
+}
+
+html {
+    display: table;
+    margin: auto;
+}
+
+
+body {
+    display: table-cell;
+    vertical-align: middle;
+}
+
 .main-content {
     display: flex;
+    max-width: 700px;
 
 }
 
 #insta-phone {
     width: 50%;
     padding: 20px;
+    max-height: 500px;
 }
 
 #logo {
@@ -31,3 +53,4 @@ h1 {
     border: solid 1px grey;
     margin: 10px 0px; 
 }
+

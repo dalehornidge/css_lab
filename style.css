@@ -2,3 +2,7 @@
 h1 {
     font-family: 'Oleo Script', cursive;
 }
+
+#logo {
+    size: 10px;
+}
